@@ -1,3 +1,5 @@
+-- """I used table import wizard in sql workbench for the tables "products" and "customers" and for the Table "orders", I used load data function because in orders table missing values and duplicate rows was present."""
+
 SET GLOBAL local_infile = 1;
 SHOW VARIABLES LIKE 'local_infile';
 
