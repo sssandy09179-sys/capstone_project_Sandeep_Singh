@@ -14,10 +14,10 @@ products = pd.read_csv('products.csv')
 
 #print(orders['payment_method'].unique())
 
-payment_method= orders['payment_method'].str.strip().str.upper()
-#print(payment_method)
+orders['payment_method'] = orders['payment_method'].str.strip().str.upper()
 
-orders['payment_method'].str.upper().value_counts()
+#print(orders['payment_method'].value_counts())
+
 
 """Task 3 — Remove duplicate orders"""
 
